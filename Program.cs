@@ -4,7 +4,6 @@ Genero generoJpop=new Genero("J-Pop");
 
 string estilo=generoJpop.GeneroMusical;
 
-//Usseewa 207/ Gira Gira 476 / Hanabi 212
 Musica musica1=new Musica(ado, "Usseewa")
 {
     Duracao=207,
@@ -55,5 +54,6 @@ episodio3.AdicionarConvidado("Ado");
 podcado.AdicionarEpisodio(episodio1);
 podcado.AdicionarEpisodio(episodio2);
 podcado.AdicionarEpisodio(episodio3);
+
 
 podcado.ExibirDetalhes();
